@@ -3,23 +3,35 @@ img {
     width:272; 
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .active {
+    background-color: #4CAF50;
+    color: white;
+  }
+
+/*
 #nav-header{
-    position: fixed
+
 }
 
 #nav-left{
-    position: fixed
+
 }
 
 #nav-right{
-    position: fixed
 }
+
 
 .body {
     padding: 5px;
-}
 
-#footer {
+
+    footer {
     padding: 10px;
     background-color: rgba(0,0,0,.54);
 }
@@ -35,3 +47,4 @@ img {
 #footer-right{
     border: 2px;
 }
+*/

@@ -3,14 +3,35 @@ img {
     width:272; 
 }
 
-.header-container{
-    background-color: blue
+#nav-header{
+    position: fixed
 }
 
-.header-left{
-    background-color: red
+#nav-left{
+    position: fixed
 }
 
-.header-right{
-    background-color: green
+#nav-right{
+    position: fixed
+}
+
+.body {
+    padding: 5px;
+}
+
+#footer {
+    padding: 10px;
+    background-color: rgba(0,0,0,.54);
+}
+
+#country {
+    border: 2px;
+}
+
+#footer-left{
+    border: 2px;
+}
+
+#footer-right{
+    border: 2px;
 }

@@ -1,3 +1,22 @@
+
+  main {
+	min-height: 184px;
+	text-align: center;
+    padding-top: 180px;
+  }
+  
+  main div {
+    width: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    padding: 20px;
+    resize: both;
+    overflow: auto;
+  }
+  
+  
 ul {
     list-style-type: none;
     font-family: Arial, Helvetica, sans-serif;
@@ -10,57 +29,101 @@ li {
     padding: 5px;
 }
 
-img {
-    margin-bottom: 10px;
-}
 a {
     color: #222;
 }
 
-#footer {
-    background-color: #f2f2f2;
-
+a:link {
+    text-decoration: none;
 }
 
-.form-control-lg{
+a:hover {
+    text-decoration: underline;
+  }
+
+#nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#nav-left {
+    float: left;
+    width: 50%;
+    text-align: left;
+
+ }
+  
+#nav-right {
+    float: right;
+    width: 50%;
+    text-align: right;
+ }
+ 
+ input {
+    width: 50%;
+    height: 30px;
     -webkit-border-radius: 50px;
     -moz-border-radius: 50px;
     border-radius: 50px;
     margin-bottom: 10px;
   }
 
-
-#nav-left {
-    float: left;
-    background-color: red;
- }
-  
-#nav-right {
-    float: right;
-    background-color: green;
- }
-
- #button {
+#button {
      background-color: blue;
      color: white;
  }
-#body {
+
+ #footer {
     width: 100%;
-    text-align: center;
+    background-color: #f2f2f2;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    
 }
-
-#footer-left {
-    float: left;
-    background-color: yellow;
-}
-
 
  #footer-left {
-     float: left;
-     background-color: red;
+    float: left;
+    background-color: #f2f2f2;
+    width: 50%;
+    text-align: left;
  }
 
  #footer-right {
      float: right; 
-     background-color: green;
+     background-color: #f2f2f2;
+     width: 50%;
+     text-align: right;
  }
+
+ 
+ .button-search{
+    background-color:#e7e7e7;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+    color: #222;
+  }
+  
+  .button-login{    
+    background-color:#4285f4;
+    border: none;
+    color: white;
+    padding: 4px 4px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 13px;
+    margin: 1px 1px;
+    
+  }
+}

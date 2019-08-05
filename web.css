@@ -28,3 +28,39 @@ a {
     border-radius: 50px;
     margin-bottom: 10px;
   }
+
+
+#nav-left {
+    float: left;
+    background-color: red;
+ }
+  
+#nav-right {
+    float: right;
+    background-color: green;
+ }
+
+ #button {
+     background-color: blue;
+     color: white;
+ }
+#body {
+    width: 100%;
+    text-align: center;
+}
+
+#footer-left {
+    float: left;
+    background-color: yellow;
+}
+
+
+ #footer-left {
+     float: left;
+     background-color: red;
+ }
+
+ #footer-right {
+     float: right; 
+     background-color: green;
+ }
